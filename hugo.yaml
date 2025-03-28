@@ -1,5 +1,6 @@
 baseURL: https://www.zimbolo.it/
 languageCode: en-us
+title: "My Portfolio"
 theme: ["PaperMod"]
 params:
   profileMode:
