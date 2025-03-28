@@ -1,4 +1,28 @@
-baseURL: https://example.org/
+baseURL: https://www.zimbolo.it/
 languageCode: en-us
-title: My New Hugo Site
 theme: ["PaperMod"]
+params:
+  profileMode:
+      enabled: true
+      title: "Francesco Zimbolo"
+      subtitle: "System Integrator & Software Developer"
+      buttons:
+        - name: Search
+          url: "/search"
+      imageUrl: "https://i.imgur.com/YEOT4PW.jpeg"
+  socialIcons:
+    - name: "GitHub"
+      url: "https://github.com/Haloghen"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/francesco-zimbolo-7199ab151"
+    - name: "Whatsapp"
+      url: "https://wa.me/393773026764"
+    - name: "Telegram"
+      url: "https://t.me/HaloghenOfficial"
+    - name: "Email"
+      url: "mailto:francesco@zimbolo.it"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
